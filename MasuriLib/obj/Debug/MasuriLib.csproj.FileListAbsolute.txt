@@ -1,0 +1,5 @@
+c:\users\psh9508\documents\visual studio 2015\Projects\MasuriLib\MasuriLib\bin\Debug\MasuriLib.dll
+c:\users\psh9508\documents\visual studio 2015\Projects\MasuriLib\MasuriLib\bin\Debug\MasuriLib.pdb
+c:\users\psh9508\documents\visual studio 2015\Projects\MasuriLib\MasuriLib\obj\Debug\MasuriLib.csprojResolveAssemblyReference.cache
+c:\users\psh9508\documents\visual studio 2015\Projects\MasuriLib\MasuriLib\obj\Debug\MasuriLib.dll
+c:\users\psh9508\documents\visual studio 2015\Projects\MasuriLib\MasuriLib\obj\Debug\MasuriLib.pdb
