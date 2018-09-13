@@ -11,6 +11,11 @@ namespace MasuriLib
         private readonly ILoggable _logger;
 
         #region ctor
+        public LogService()
+        {
+            _logger = null;
+        }
+
         public LogService(ILoggable logger)
         {
             _logger = logger;

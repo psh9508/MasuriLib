@@ -39,7 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LogService.cs" />
+    <Compile Include="Log\Dependancy\FileLogger.cs" />
+    <Compile Include="Log\Interface\ILoggable.cs" />
+    <Compile Include="Log\LogService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

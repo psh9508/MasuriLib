@@ -31,7 +31,7 @@ namespace MasuriLib.Log.Dependancy
                 //if (_fileName == string.Empty)
                 //    return;
 
-                using (System.IO.StreamWriter writer = new System.IO.StreamWriter(PATH + _fileName, true, System.Text.Encoding.UTF8))
+                using (var writer = new System.IO.StreamWriter(PATH + _fileName, true, System.Text.Encoding.UTF8))
                 {
                     if (message != "")
                     {
