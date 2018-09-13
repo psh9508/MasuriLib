@@ -9,7 +9,7 @@ namespace MasuriLib.Log.Dependancy
 {
     public class FileLogger : ILoggable
     {
-        private const string PATH = @"C:\@Pharm\log\";
+        private const string PATH = @"C:\@Pharm\log\"; // CHANGE, WHRE YOU WANT TO SAVE LOG FILE.
         private string _fileName = string.Empty;
 
         public void WriteErrorLog(string message)
@@ -48,7 +48,7 @@ namespace MasuriLib.Log.Dependancy
         {
             try
             {
-                if (!HasFile())
+                if (!HasLogFile())
                     CreateFile();
 
                 return true;
@@ -59,11 +59,19 @@ namespace MasuriLib.Log.Dependancy
             }
         }
 
-        private bool HasFile()
+        private bool HasLogFile()
         {
             if (_fileName == string.Empty)
                 SetFileName();
 
+            if (LogFileExist())
+                return true;
+
+            return false;
+        }
+
+        private bool LogFileExist()
+        {
             if (File.Exists(PATH + _fileName))
                 return true;
 
