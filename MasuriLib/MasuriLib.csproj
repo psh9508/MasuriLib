@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helper\TaskHelper.cs" />
     <Compile Include="Log\Dependancy\FileLogger.cs" />
     <Compile Include="Log\Interface\ILoggable.cs" />
     <Compile Include="Log\LogService.cs" />
