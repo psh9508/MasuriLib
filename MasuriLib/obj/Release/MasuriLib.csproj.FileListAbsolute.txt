@@ -1,0 +1,4 @@
+C:\Users\psh9508\Documents\Visual Studio 2015\Projects\MasuriLib\MasuriLib\bin\Release\MasuriLib.dll
+C:\Users\psh9508\Documents\Visual Studio 2015\Projects\MasuriLib\MasuriLib\bin\Release\MasuriLib.pdb
+C:\Users\psh9508\Documents\Visual Studio 2015\Projects\MasuriLib\MasuriLib\obj\Release\MasuriLib.dll
+C:\Users\psh9508\Documents\Visual Studio 2015\Projects\MasuriLib\MasuriLib\obj\Release\MasuriLib.pdb
