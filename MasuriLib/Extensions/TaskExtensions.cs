@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MasuriLib.Helper
+namespace MasuriLib.Extensions
 {
-    public static class TaskHelper
+    public static class TaskExtension
     {
         public static Task ContinueWithThorwException(this Task src, Action<Task> action)
         {
